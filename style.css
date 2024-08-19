@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(34, 21, 4);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px 20px 10px;
+  width: 100%;
+  background-color: rgb(63, 37, 2);
+  height: 255px;
+}
+
+.anasayfa a {
+  padding: 80px;
+  text-decoration: none;
+  color: rgb(248, 246, 236);
+  font-size: 25px;
+  transition: all;
+}
+
+.anasayfa a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.navbar img {
+  width: 100px;
+  border-radius: 100px;
+  margin-top: -5px;
+}
+
+.userlar {
+  color: rgb(248, 246, 236);
+  cursor: pointer;
+  font-size: larger;
+  transition: all;
+  margin-top: 50px;
+}
+
+p {
+  color: rgb(248, 246, 236);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.videom video {
+  width: 100%;
+  background-size: cover;
+  background-repeat: none;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: 350px;
+}
+
+.typing-demo {
+  width: 100%;
+  animation: typing 2s steps(22), blink 0.3s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 6px solid;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 5em;
+  color: rgb(248, 246, 236);
+  padding-left: 810px;
+  margin-top: -620px;
+}
+.typing-demo:hover {
+  color: rgb(110, 55, 22);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.menuler {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  color: rgb(248, 246, 236);
+}
+
+.menuler h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  border-radius: 30px;
+  background-color: blanchedalmond;
+  box-shadow: 0px 0px 17px -2px rgba(0, 0, 0.75);
+  transition: all 0.3s;
+}
+
+img:hover {
+  scale: 1.18;
+  cursor: pointer;
+}
+
+h1 {
+  height: 40px;
+  margin-top: 10px;
+  color: rgb(228, 221, 215);
+  font-size: 15px;
+  background-color: rgb(121, 64, 18);
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+h1:hover {
+  color: rgb(48, 32, 22);
+}
+
+.video1 video {
+  width: 100%;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px;
+  margin: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+footer {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: 250px;
+  background-color: rgb(34, 20, 2);
+  cursor: pointer;
+}
+
+.icons i{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 30px;
+  margin-top: -94px;
+  padding-right: 1;
+  gap: 90px;
+ 
+}
+
